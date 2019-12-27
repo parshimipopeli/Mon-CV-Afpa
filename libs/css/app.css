@@ -1,0 +1,33 @@
+   /* .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}*/
+
+
+
+
+
+
+
+
+
+
+   /* TAILLE IPAD */
+   @media (min-width: 576px) and (max-width: 770px) {
+   }
+
+
+
+
+   /* TAILLE ECRAN MOYEN */
+   @media (min-width: 771px) and (max-width: 991px) {
+   }
+
+
+
+
+   /* TAILLE ECRAN GRAND */
+
+   @media (min-width: 992px) {
+
+   }
