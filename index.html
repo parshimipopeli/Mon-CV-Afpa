@@ -8,21 +8,23 @@
     <script src="https://kit.fontawesome.com/4d7f4e43b0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="libs/css/app.css">
     <title>Cv Philippe Lamorski</title>
 </head>
 <body>
-<header class="container-fluid header ">
-    <div class="row justify-content-center">
-        <div class="col-12 text-center citation align-items-center">
-            <h1>A coeur vaillant, rien d' impossible</h1>
+<div class="container-fluid">
+    <header class="container-fluid header ">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center citation pt-20 bg-primary">
+                <h1>A coeur vaillant, rien d' impossible</h1>
+            </div>
         </div>
-    </div>
-</header>
-<section class=" container-fluid infos">
-    <div class="row">
-        <div class="col-12 contentLeft ">
-            <div class=" col-12 col-lg-3 title">
+    </header>
+    <br><br><br><br><br>
+    <div class="row ">
+        <div class="container-fluid rounded col-12 col-lg-3 contentLeft">
+            <div class=" col-12  title">
                 <h2 class="text-center display-3">Lamorski</h2>
                 <h2 class="text-center display-3">Philippe</h2>
                 <hr>
@@ -31,142 +33,179 @@
                 <p class="text-center">En reconversion professionnel, développeur web et web mobile</p>
                 <hr>
             </div>
-            <div class=" col-12 col-lg-3 list">
-                <ul class="text-justify">
-                    <li>philippe.lamorski@gmail.com</li>
-                    <li>29 la roseraie 62122 Lapugnoy</li>
-                    <li>46 ans</li>
-                    <li>marié</li>
-                    <li>1 enfant</li>
-                    <li>06/59/61/37/85</li>
-                    <li>travailleur handicapé</li>
+            <div class=" col-12 list">
+                <ul class="text-justify ">
+                    <li class="">philippe.lamorski@gmail.com</li>
+                    <li class="">29 la roseraie 62122 Lapugnoy</li>
+                    <li class="">46 ans</li>
+                    <li class="">marié</li>
+                    <li class="">1 enfant</li>
+                    <li class="">06/59/61/37/85</li>
+                    <li class="">travailleur handicapé</li>
                 </ul>
             </div>
-
+            <hr>
+            <div class="reseaux">
+                <ul>
+                    <li><a href="https://www.facebook.com/parshimipopeli" target="_blank">
+                        <button type="button"
+                                class="btn btn-primary"><i class="fab fa-facebook-square"></i></button>
+                    </a>
+                    </li>
+                    <li><a href="mailto:philippe.lamorskipro@gmail.com" target="_blank">
+                        <button type="button"
+                                class="btn btn-primary"><i class="fas fa-envelope"></i></button>
+                    </a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/philippe-lamorski-20a52217b/" target="_blank">
+                        <button type="button"
+                                class="btn btn-primary"><i class="fab fa-linkedin"></i></button>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="atout">
+                <h4 class="text-center">Atouts</h4>
+                <ul>
+                    <li> Capacité à féderer</li>
+                    <li> Capacité d' adaptation</li>
+                    <li> Curiosité</li>
+                    <li> Autonomie</li>
+                    <li> Persévérance</li>
+                    <li> Sens de la communication</li>
+                    <li> Sens de l' organisation</li>
+                    <li> Travail en équipe</li>
+                    <li> Rigueur</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="loisirs">
+                <h4 class="text-center">Loisirs</h4>
+                <ul>
+                    <li>Cyclisme sur route</li>
+                    <li>Course à pieds, trail</li>
+                    <li>Ecologie, nature</li>
+                    <li>Musique</li>
+                </ul>
+            </div>
         </div>
 
-    </div>
-    <section class=" container-fluid ">
-        <div class="row">
-            <div class="col-12 col-lg-8 diplomes">
+        <div class="container-fluid col-12 col-lg-8 mt-100">
+            <div class="col-12  diplomes" id="diplomes">
                 <h3 class="text-center display-4">Diplômes et formations</h3>
-                <p class="text-center display-5">Formation développeur web et web mobile a l' A F P A du 28.10.2019
-                    au
-                    31.07.2020 </p>
-                <ul>
-                    <li>Maquetter une application</li>
-                    <li>Réaliser une interface utilisateur web statique et
-                        adaptable
-                    </li>
-                    <li>Développer une interface utilisateur web dynamique
-                    </li>
-                    <li>Réaliser une interface utilisateur avec une solution de
-                        gestion de contenu ou e-commerce
-                    </li>
-                    <li>Créer une base de données</li>
-                    <li>Développer les composants d’accès aux données</li>
-                    <li>Développer la partie back-end d’une application web ou
-                        web mobile
-                    </li>
-                    <li>Elaborer et mettre en œuvre des composants dans une
-                        application de gestion de contenu ou e-commerce
-                    </li>
-                </ul>
-                <hr>
-                <ul>
-                    <li>Baccalauréat F1 Construction Mecanique équivalent à st2i actuel, Lycée Carnot Bruay la
-                        buissiere
-                        / de septembre 1993 à juin 1994.
-                    </li>
+                <!--
+                                <p class="text-center display-5">Formation développeur web et web mobile a l' A F P A du 28.10.2019
+                -->
+                <!-- au
+                 31.07.2020 </p>-->
+                <!--<ul class="experiences">-->
+                <!-- <li>Maquetter une application</li>
+                 <li>Réaliser une interface utilisateur web statique et
+                     adaptable
+                 </li>
+                 <li>Développer une interface utilisateur web dynamique
+                 </li>
+                 <li>Réaliser une interface utilisateur avec une solution de
+                     gestion de contenu ou e-commerce
+                 </li>
+                 <li>Créer une base de données</li>
+                 <li>Développer les composants d’accès aux données</li>
+                 <li>Développer la partie back-end d’une application web ou
+                     web mobile
+                 </li>
+                 <li>Elaborer et mettre en œuvre des composants dans une
+                     application de gestion de contenu ou e-commerce
+                 </li>
+             </ul>
+             <hr>
+             <ul>
+                 <li>Baccalauréat F1 Construction Mecanique équivalent à st2i actuel, Lycée Carnot Bruay la
+                     buissiere
+                     / de septembre 1993 à juin 1994.
+                 </li>-->
                 </ul>
             </div>
-        </div>
-    </section>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-12 experiences">
+            <div class="col-12 experiences" id="experience">
                 <h3 class="text-center">Experiences professionnelle</h3>
-                <p class="text-center display-5">Boucher, Vendeur chez Henri Boucher / de Décembre 1995 à Avril
-                    2018:</p>
-                <ul>
-                    <li>-> Management: gestion du personnel, des plannings, répartition de la charge de travail.
-                    </li>
-                    <li>-> Gestion: chiffre d'affaire ,commandes marchandises et materiel.</li>
+                <!-- <p class="text-center display-5">Boucher, Vendeur chez Henri Boucher / de Décembre 1995 à Avril
+                     2018:</p>
+                 <ul>
+                     <li>-> Management: gestion du personnel, des plannings, répartition de la charge de travail.
+                     </li>
+                     <li>-> Gestion: chiffre d'affaire ,commandes marchandises et materiel.</li>
 
 
-                </ul>
-                <p class="text-center">Agent de production chez Délifrance à Labeuvriere / de janvier 1995 à
-                    Décembre
-                    1995.</p>
-                <p class="text-center">Magasinier, gestionnaire logistique chez Gascoigne Melotte à bornel / de
-                    janvier
-                    1994 à décembre 1994.</p>
-            </div>
-        </div>
-    </section>
-    <section class="container-fluid">
-        <h3 class="text-center ">Compétences</h3>
+                 </ul>
+                 <p class="text-center">Agent de production chez Délifrance à Labeuvriere / de janvier 1995 à
+                     Décembre
+                     1995.</p>
+                 <p class="text-center">Magasinier, gestionnaire logistique chez Gascoigne Melotte à bornel / de
+                     janvier
+                     1994 à décembre 1994.</p>
+             </div>
+ -->
+                <div class="col-12 competences">
+                    <h3 class="text-center ">Compétences</h3>
 
-        <div class="row">
-            <div class="col-12 competences">
-                <div class="col-12 languages">
-                    <h6 class="text-center">Languages</h6>
+                    <div class="col-12 languages">
+                        <h6 class="text-center">Languages</h6>
+                        <hr>
+                        <ul>
+                            <li><i class="fab fa-html5">HTML.5</i><i class="far fa-star"></i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i></li>
+                            <li><i class="fab fa-css3-alt">CSS.3</i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i><i class="far fa-star"></i></li>
+                            <li><i class="fab fa-js">Javascript</i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i></li>
+                            <li><i class="fab fa-php">PHP/5,7</i><i class="far fa-star"></i><i class="far fa-star"></i>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
                     <hr>
-                    <ul>
-                        <li><i class="fab fa-html5">HTML.5</i><i class="far fa-star"></i><i class="far fa-star"></i><i
-                                class="far fa-star"></i></li>
-                        <li><i class="fab fa-css3-alt">CSS.3</i><i class="far fa-star"></i><i
-                                class="far fa-star"></i><i class="far fa-star"></i></li>
-                        <li><i class="fab fa-js">Javascript</i><i class="far fa-star"></i><i
-                                class="far fa-star"></i></li>
-                        <li><i class="fab fa-php">PHP/5,7</i><i class="far fa-star"></i><i class="far fa-star"></i>
-                        </li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="col-12 ">
+                    <div class="col-12 ">
 
-                    <h6 class="text-center">frameworks</h6>
-                    <ul>
-                        <li><i class="fab fa-bootstrap">bootstrap</i><i class="far fa-star"></i><i
-                                class="far fa-star"></i></li>
-                        <li><img src="https://img.icons8.com/ios/20/000000/jquery.png">jquery<i
-                                class="far fa-star"></i></li>
-                        <li><i class="fab fa-symfony">symfony</i></li>
-                        <li><i class="fab fa-laravel"></i>laravel</li>
-                        <li><i class="fab fa-angular"></i>angular</li>
-                    </ul>
-                </div>
-                <div class="col-12">
-                    <h6 class="text-center">Techno</h6>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                        <h6 class="text-center">frameworks</h6>
+                        <ul>
+                            <li><i class="fab fa-bootstrap">bootstrap</i><i class="far fa-star"></i><i
+                                    class="far fa-star"></i></li>
+                            <li><img src="https://img.icons8.com/ios/20/000000/jquery.png">jquery<i
+                                    class="far fa-star"></i></li>
+                            <li><i class="fab fa-symfony">symfony</i></li>
+                            <li><i class="fab fa-laravel"></i>laravel</li>
+                            <li><i class="fab fa-angular"></i>angular</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="col-12">
+                        <h6 class="text-center">Techno</h6>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
         </div>
 
-
-    </section>
-
-
-</section>
-
-
+        <div class="d-none"><a href="https://icons8.com/icon/55215/jquery">JQuery icon by Icons8</a></div>
+    </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-<div class="d-none"><a href="https://icons8.com/icon/55215/jquery">JQuery icon by Icons8</a></div>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<script src="libs/js/app.js"></script>
 </body>
 </html>

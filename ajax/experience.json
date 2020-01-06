@@ -1,0 +1,21 @@
+[{
+  "societe": "Henri Boucher",
+  "duree": "de Décembre 1995 à Avril 2018.",
+  "lieu": "Lillers",
+  "detail": [" Management: gestion du personnel, des plannings, répartition de la charge de travail.",
+              " Gestion: chiffre d'affaire ,commandes marchandises et materiel."]
+},
+  {
+    "societe": "Délifrance",
+    "duree": "de janvier 1995 à Décembre 1995.",
+    "lieu": "Labeuvriere",
+    "detail": "Agent de production"
+
+  },
+  {"societe":"Gascoigne Melotte",
+   "duree": "de janvier 1994 à décembre 1994.",
+    "lieu": "Bornel",
+    "detail":["Magasinier",
+              "gestionnaire logistique"]
+  }
+]

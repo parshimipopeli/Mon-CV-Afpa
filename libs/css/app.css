@@ -1,33 +1,30 @@
-   /* .container-fluid{
-    padding-left: 0;
-    padding-right: 0;
-}*/
+/* TAILLE IPAD */
+@media (min-width: 576px) and (max-width: 770px) {
+}
 
 
+/* TAILLE ECRAN MOYEN */
+@media (min-width: 771px) and (max-width: 991px) {
+}
 
 
+/* TAILLE ECRAN GRAND */
+
+@media (min-width: 992px) {
 
 
+    .contentLeft {
 
+        background-color: cornflowerblue;
+    }
+    ul li{
+        margin-top: 20px;
+        list-style-type: none;
+    }
+    .diplomes, .experiences, .competences{
+        border: 5mm ridge rgba(104, 200, 238, 0.6);
+        border-radius: 10px;
+        margin-top: 10px;
+    }
 
-
-
-   /* TAILLE IPAD */
-   @media (min-width: 576px) and (max-width: 770px) {
-   }
-
-
-
-
-   /* TAILLE ECRAN MOYEN */
-   @media (min-width: 771px) and (max-width: 991px) {
-   }
-
-
-
-
-   /* TAILLE ECRAN GRAND */
-
-   @media (min-width: 992px) {
-
-   }
+}
