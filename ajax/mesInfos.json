@@ -1,0 +1,30 @@
+[
+
+  {
+    "id": "1",
+    "name": "social",
+    "value": "Marié , 1 enfant"
+  },
+
+  {
+    "id": "2",
+    "name": "adresse",
+    "value": "29 résidence la roseraie 62122 Lapugnoy"
+  },
+
+
+
+  {
+    "id": "3",
+    "name": "mail",
+    "value": "philippe.lamorski@gmail.com"
+  },
+
+  {
+    "id": "4",
+    "name": "tel",
+    "value": "06/59/61/37/85"
+  }
+
+
+]
