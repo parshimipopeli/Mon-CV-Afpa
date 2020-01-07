@@ -4,9 +4,7 @@ console.log("hello");
 
 $(function () {
 
-    $( "#accordion" ).accordion({
-        collapsible: true
-    });
+
 
     $.ajax({
         url: 'ajax/experience.json',
@@ -87,6 +85,25 @@ $(function () {
             $("#listOutils").append("<li>" + data[z].value + "</li>");
         }
     });
+    $( "#accordion" ).accordion({
+        heightStyle : "content"
+    });
+
+    $(window).scroll(function() {
+        if($(window).scrollTop() == $(document).height() - $(window).height()) {
+            $.ajax({
+                type: "POST",
+                url: "ajax/contact.html"
+            }).done(function (data) {
+
+
+                $('#contact').html(data);
+
+            })
+        }
+    });
+
+
 
 
 });

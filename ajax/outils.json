@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "value":"<i class=\"fab fa-linux\">Linux</i>"
+  },
+
+  {
+    "id": "2",
+    "value": "<i class=\"fab fa-github\">GitHub</i>"
+  },
+  {
+    "id": "3",
+    "value": "<i class=\"fab fa-gitlab\">GitLab</i>"
+  },
+
+  {
+    "id": "4",
+    "value": "<i class=\"fas fa-toolbox\">Ajax</i>"
+  },
+
+  {
+    "id": "5",
+    "value": "<i class=\"fas fa-toolbox\">JSON</i>"
+  },
+  {
+    "id": "6",
+    "value": "<i class=\"icon-mysql\">mysql</i> "
+  }
+]

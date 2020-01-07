@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "value":"<i class=\"icon-html5-alt\" style=\"font-size:45px;\">HTML 5</i> "
+
+  },
+
+  {
+    "id": "2",
+    "value": "<i class=\"icon-css3-alt\">CSS 3</i>"
+  },
+
+
+
+  {
+    "id": "3",
+    "value": "<i class=\"icon-javascript-alt\">Javascript</i>"
+  },
+
+  {
+    "id": "4",
+    "value": "<i class=\"icon-php-alt\">PHP</i>"
+  }
+
+]
